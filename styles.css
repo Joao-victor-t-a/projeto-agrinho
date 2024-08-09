@@ -1,0 +1,225 @@
+
+
+
+Home.css
+
+
+/* Estilos gerais */
+
+html, body {
+
+    height: 100%;
+
+    margin: 0;
+
+}
+
+
+body {
+
+    font-family: Arial, sans-serif;
+
+    background-color: #f0f0f0;
+
+    display: flex;
+
+    flex-direction: column;
+
+}
+
+
+.wrapper {
+
+    flex: 1;
+
+    display: flex;
+
+    flex-direction: column;
+
+}
+
+
+/* Navbar */
+
+.navbar {
+
+    background-color: #333;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 10px 0;
+
+}
+
+
+.navbar h1 {
+
+    margin: 0;
+
+    font-size: 24px;
+
+}
+
+
+.navbar ul {
+
+    list-style-type: none;
+
+    margin: 0;
+
+    padding: 0;
+
+    text-align: center;
+
+}
+
+
+.navbar ul li {
+
+    display: inline-block;
+
+    margin: 0 10px;
+
+}
+
+
+.navbar ul li a {
+
+    display: block;
+
+    color: white;
+
+    text-decoration: none;
+
+    padding: 10px 20px;
+
+}
+
+
+.navbar ul li a:hover {
+
+    background-color: #555;
+
+}
+
+
+/* Conteúdo Principal */
+
+.content {
+
+    display: flex;
+
+    flex-direction: row;
+
+    padding: 20px;
+
+}
+
+
+.imagem {
+
+    flex: 1;
+
+}
+
+
+.imagem img {
+
+    width: 50vw;
+
+    max-width: 100%;
+
+    height: auto;
+
+}
+
+
+.texto {
+
+    flex: 2;
+
+    padding-left: 20px;
+
+}
+
+
+.texto h1 {
+
+    font-size: 36px;
+
+    color: #333;
+
+}
+
+
+.texto h2 {
+
+    font-size: 26px;
+
+    color: #333;
+
+}
+
+
+.texto p {
+
+    font-size: 18px;
+
+    line-height: 1.6;
+
+    color: #555;
+
+}
+
+
+/* Footer */
+
+footer {
+
+    background-color: #333;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 20px;
+
+}
+
+
+footer ul {
+
+    list-style-type: none;
+
+    margin: 0;
+
+    padding: 0;
+
+}
+
+
+footer ul li {
+
+    display: inline;
+
+    margin: 0 10px;
+
+}
+
+
+footer ul li a {
+
+    color: white;
+
+    text-decoration: none;
+
+}
+
+
+footer ul li a:hover {
+
+    text-decoration: underline;
+
+}
