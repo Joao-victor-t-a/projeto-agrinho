@@ -1,235 +1,131 @@
-
-Processos.html
-
-
-
 /* Estilos gerais */
-
 html, body {
-
-height: 100%;
-
-margin: 0;
-
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
-
 
 body {
-
-font-family: Arial, sans-serif;
-
-background-color: #f0f0f0;
-
-display: flex;
-
-flex-direction: column;
-
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
 }
 
-
+/* Container principal */
 .wrapper {
-
-flex: 1;
-
-display: flex;
-
-flex-direction: column;
-
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    max-width: 1200px; /* Define a largura máxima da página */
+    margin: 0 auto; /* Centraliza o conteúdo */
 }
-
 
 /* Navbar */
-
 .navbar {
-
-background-color: #333;
-
-color: white;
-
-text-align: center;
-
-padding: 10px 0;
-
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%; /* Garante que a navbar ocupe toda a largura da página */
+    box-sizing: border-box; /* Inclui o padding na largura total */
 }
-
 
 .navbar h1 {
-
-margin: 0;
-
-font-size: 24px;
-
+    margin: 0;
+    font-size: 24px;
 }
-
 
 .navbar ul {
-
-list-style-type: none;
-
-margin: 0;
-
-padding: 0;
-
-text-align: center;
-
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
-
 
 .navbar ul li {
-
-display: inline-block;
-
-margin: 0 10px;
-
+    display: inline-block;
+    margin: 0 10px;
 }
-
 
 .navbar ul li a {
-
-display: block;
-
-color: white;
-
-text-decoration: none;
-
-padding: 10px 20px;
-
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
 }
-
 
 .navbar ul li a:hover {
-
-background-color: #555;
-
+    background-color: #555;
 }
-
 
 /* Conteúdo Principal */
-
 .content {
-
-display: flex;
-
-flex-direction: row;
-
-padding: 20px;
-
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    box-sizing: border-box;
 }
-
-
 
 /* Estilos para Quadros */
-
-
-main {
-
-display: flex;
-
-flex-direction: column;
-
-align-items: center;
-
-margin: 20px;
-
-}
-
 .quadro {
-
-border: 1px solid #ccc;
-
-padding: 20px;
-
-margin: 10px;
-
-width: 100vh;
-
-box-shadow: 0px 5px 5px 0px #555;
-
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px;
+    width: calc(100% - 40px); /* Ajuste para garantir espaço ao redor */
+    max-width: 100%; /* Garante que os quadros não excedam a largura do contêiner */
+    box-shadow: 0px 5px 5px 0px #555;
+    background-color: #fff;
+    box-sizing: border-box; /* Inclui o padding e a borda na largura total */
 }
-
 
 .quadro h2 {
-
-font-size: 24px;
-
-color: #333;
-
+    font-size: 24px;
+    color: #333;
 }
-
 
 .quadro p {
-
-font-size: 16px;
-
-line-height: 1.6;
-
-color: #555;
-
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
 }
-
 
 .quadro img {
-
-width: 400px;
-
-height: 300px;
-
+    width: 100%;
+    height: auto;
+    max-width: 100%; /* Garante que imagens não ultrapassem a largura do quadro */
+    display: block;
+    margin: 10px 0;
 }
-
 
 .ajuste {
-
-margin-top: 85px;
-
+    margin-top: 20px; /* Ajuste para garantir que a imagem não sobreponha o texto */
 }
-
 
 /* Footer */
-
 footer {
-
-background-color: #333;
-
-color: white;
-
-text-align: center;
-
-padding: 20px;
-
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
 }
-
 
 footer ul {
-
-list-style-type: none;
-
-margin: 0;
-
-padding: 0;
-
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
-
 
 footer ul li {
-
-display: inline;
-
-margin: 0 10px;
-
+    display: inline;
+    margin: 0 10px;
 }
-
 
 footer ul li a {
-
-color: white;
-
-text-decoration: none;
-
+    color: white;
+    text-decoration: none;
 }
 
-
 footer ul li a:hover {
-
-text-decoration: underline;
-
+    text-decoration: underline;
 }

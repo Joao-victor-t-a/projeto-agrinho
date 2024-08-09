@@ -102,25 +102,31 @@ body {
 }
 
 .image-container { 
-  text-align: center; 
-  margin: 20px 0; 
-  display: inline-block;
-  position: relative;
+    display: flex;
+    flex-direction: row; 
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 100px;
+ 
 
 } 
 
+.image-container a {
+    text-decoration: none;
+}
+
 .image-container img { 
-  width: 250px; /* Ajuste o tamanho das imagens conforme necessário */ 
-  height: 250px; /* Mantém a altura igual à largura para garantir que as imagens sejam circulares */ 
+  width: 100px; /* Ajuste o tamanho das imagens conforme necessário */ 
+  height: 100px; /* Mantém a altura igual à largura para garantir que as imagens sejam circulares */ 
   margin: 0 10px; 
   border-radius: 50%; /* Faz com que a imagem fique circular */ 
   object-fit: cover; /* Garante que a imagem preencha o círculo */ 
 } 
-
-.finalSite { 
-  font-size: 1.5em; 
-  margin: 50% 10px 0px 0px ; 
-  }
+.texto{
+    margin-top: px;
+    margin-right: px;
+    margin-left: 255px;
+}
 
 /* Footer */
 
@@ -129,6 +135,7 @@ footer {
     color: white;
     text-align: center;
     padding: 20px;
+    margin-top: 30px;
 }
 
 footer ul {
